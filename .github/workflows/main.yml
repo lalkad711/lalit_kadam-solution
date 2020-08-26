@@ -28,6 +28,6 @@ jobs:
       with:
         java-version: 1.8
     
-    # Run maven build
-    - name: Build with Maven
-      run: mvn -B package --file pom.xml
+    # Run gradle build
+    - name: Build with gradle
+      run: gradle build
